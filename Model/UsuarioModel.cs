@@ -9,23 +9,23 @@ namespace ERP.Model
     class UsuarioModel
     {
         private int id_usuario;
+        private int idEmpresa;
         private int idPerfil;
-        private string login;
         private string nome;
         private string sobrenome;
+        private string avatar;
+        private string email;
         private string password;
         private int status;
-        private DateTime data_cad;
-        private DateTime data_alt;
 
         public int Id_usuario { get => id_usuario; set => id_usuario = value; }
+        public int IdEmpresa { get => idEmpresa; set => idEmpresa = value; }
         public int IdPerfil { get => idPerfil; set => idPerfil = value; }
-        public string Login { get => login; set => login = value; }
         public string Nome { get => nome; set => nome = value; }
         public string Sobrenome { get => sobrenome; set => sobrenome = value; }
+        public string Avatar { get => avatar; set => avatar = value; }
+        public string Email { get => email; set => email = value; }
         public string Password { get => password; set => password = value; }
         public int Status { get => status; set => status = value; }
-        public DateTime Data_cad { get => data_cad; set => data_cad = value; }
-        public DateTime Data_alt { get => data_alt; set => data_alt = value; }
     }
 }
