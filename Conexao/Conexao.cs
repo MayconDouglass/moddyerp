@@ -11,7 +11,7 @@ namespace ERP.Conexao
         //Configuração Base de Desenvolvimento Mysql
         static string server = "erpmoddy.mysql.uhserver.com";
         static string port = "3306";
-        static string userName = "moddy";
+        static string userName = "maycondqs";
         static string password = "159753m@";
         static string database = "erpmoddy";  // Banco de dados
 
